@@ -4,7 +4,7 @@ import { CustomButton } from 'components/index'
 import { useNavigation } from '@react-navigation/native'
 
 export const HomeScreen = () => {
-    
+
     const navigation = useNavigation<any>()
 
     return (
@@ -12,6 +12,10 @@ export const HomeScreen = () => {
             <CustomButton
                 title='Firebase Page'
                 onPress={() => navigation.navigate("Firebase")}
+            />
+            <CustomButton
+                title='AsyncStorage'
+                onPress={() => navigation.navigate("AsyncStorageScreen")}
             />
         </View>
     )

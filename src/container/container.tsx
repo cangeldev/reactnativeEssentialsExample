@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
-import { AsyncStorage, Firebase, HomeScreen } from 'screens'
+import { AsyncStorageScreen, Firebase, HomeScreen } from 'screens'
 
 export const Container = () => {
 
@@ -19,8 +19,8 @@ export const Container = () => {
           component={Firebase}
         />
         <Stack.Screen
-          name='AsyncStorage'
-          component={AsyncStorage}
+          name='AsyncStorageScreen'
+          component={AsyncStorageScreen}
         />
       </Stack.Navigator>
     </NavigationContainer>
