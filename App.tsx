@@ -1,15 +1,10 @@
-import { View } from 'react-native'
 import React from 'react'
-import { CustomButton } from 'components/index'
+import { Container } from 'container/container'
 
 const App = () => {
+
   return (
-    <View>
-      <CustomButton
-        title='Test'
-        onPress={() => console.log("first")}
-      />
-    </View>
+    <Container />
   )
 }
 
