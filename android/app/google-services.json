@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "770296156385",
+    "project_id": "example-c20de",
+    "storage_bucket": "example-c20de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770296156385:android:85f0e34383d7d2e42f67a0",
+        "android_client_info": {
+          "package_name": "com.reactnativeessentialsexample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3tF4b6FI5XQuPo95IHF5gKGnL2bIHLTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
