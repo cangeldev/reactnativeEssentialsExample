@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
-import { AsyncStorageScreen, Firebase, HomeScreen } from 'screens'
+import { AsyncStorageScreen, Firebase, FirebasePushNotification, HomeScreen } from 'screens'
 
 export const Container = () => {
 
@@ -21,6 +21,10 @@ export const Container = () => {
         <Stack.Screen
           name='AsyncStorageScreen'
           component={AsyncStorageScreen}
+        />
+        <Stack.Screen
+          name='FirebasePushNotification'
+          component={FirebasePushNotification}
         />
       </Stack.Navigator>
     </NavigationContainer>

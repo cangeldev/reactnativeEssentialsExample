@@ -17,6 +17,10 @@ export const HomeScreen = () => {
                 title='AsyncStorage'
                 onPress={() => navigation.navigate("AsyncStorageScreen")}
             />
+            <CustomButton
+                title='FirebasePushNotification'
+                onPress={() => navigation.navigate("FirebasePushNotification")}
+            />
         </View>
     )
 }
