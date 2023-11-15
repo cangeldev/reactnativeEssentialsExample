@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
-import { AsyncStorageScreen, Firebase, FirebasePushNotification, HomeScreen, ReduxToolkit } from 'screens'
+import { AsyncStorageScreen, AxiosPage, Firebase, FirebasePushNotification, HomeScreen, ReduxToolkit } from 'screens'
 
 export const Container = () => {
 
@@ -29,6 +29,10 @@ export const Container = () => {
         <Stack.Screen
           name='ReduxToolkit'
           component={ReduxToolkit}
+        />
+        <Stack.Screen
+          name='AxiosPage'
+          component={AxiosPage}
         />
       </Stack.Navigator>
     </NavigationContainer>

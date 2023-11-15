@@ -25,6 +25,10 @@ export const HomeScreen = () => {
                 title='ReduxToolkit'
                 onPress={() => navigation.navigate("ReduxToolkit")}
             />
+            <CustomButton
+                title='Axios Page'
+                onPress={() => navigation.navigate("AxiosPage")}
+            />
         </View>
     )
 }
