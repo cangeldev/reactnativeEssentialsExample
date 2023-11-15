@@ -21,6 +21,10 @@ export const HomeScreen = () => {
                 title='FirebasePushNotification'
                 onPress={() => navigation.navigate("FirebasePushNotification")}
             />
+            <CustomButton
+                title='ReduxToolkit'
+                onPress={() => navigation.navigate("ReduxToolkit")}
+            />
         </View>
     )
 }
