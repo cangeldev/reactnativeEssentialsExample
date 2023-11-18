@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
-import { AsyncStorageScreen, AxiosPage, Firebase, FirebasePushNotification, HomeScreen, LottiePage, ReduxToolkit, VectorIcons } from 'screens'
+import { AsyncStorageScreen, AxiosPage, Firebase, FirebasePushNotification, HomeScreen, I18nextPage, LottiePage, ReduxToolkit, VectorIcons } from 'screens'
 
 export const Container = () => {
 
@@ -41,6 +41,10 @@ export const Container = () => {
         <Stack.Screen
           name='LottiePage'
           component={LottiePage}
+        />
+        <Stack.Screen
+          name='I18nextPage'
+          component={I18nextPage}
         />
       </Stack.Navigator>
     </NavigationContainer>
