@@ -33,6 +33,10 @@ export const HomeScreen = () => {
                 title='VectorIcons Page'
                 onPress={() => navigation.navigate("VectorIcons")}
             />
+            <CustomButton
+                title='Lottie Page'
+                onPress={() => navigation.navigate("LottiePage")}
+            />
         </View>
     )
 }

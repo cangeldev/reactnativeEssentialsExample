@@ -5,3 +5,4 @@ export { FirebasePushNotification } from "./firebasePushNotification/firebasePus
 export { ReduxToolkit } from "./reduxToolkit/reduxToolkit"
 export { AxiosPage } from "./axios/axiosPage"
 export { VectorIcons } from "./vectorIcons/vectorIcons"
+export { LottiePage } from "./lottie/lottiePage"
