@@ -1,6 +1,6 @@
-**Bu proje React Native ile en çok kullandığım temel kütüphanelerin olduğu bir uygulamadır.**
+Bu proje React Native ile en çok kullanılan temel kütüphanelerin olduğu bir uygulamadır.
 
-**Kullanıdığım Kütüphaneler**
+**Kullandığım Kütüphaneler**
 * **React Navigation** (Stack-Tab-Drawer) ----> Dökümantasyon için [buraya]( https://reactnavigation.org/docs/getting-started/) tıklayabilirsiniz.
 * **Absolute Path** ----> Benimde yazmış olduğum dökümantasyon için [buraya](https://medium.com/@can.gel/react-nativede-typescript-ile-mutlak-yol-absolute-path-kullan%C4%B1m%C4%B1-7bcc6a155524) tıklayabilirsiniz.
 * **Firebase** ----> Dökümantasyon için [buraya](https://rnfirebase.io/) tıklayabilirsiniz.
