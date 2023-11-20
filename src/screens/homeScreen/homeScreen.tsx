@@ -41,6 +41,10 @@ export const HomeScreen = () => {
                 title='İ18next Multi Language Page'
                 onPress={() => navigation.navigate("I18nextPage")}
             />
+            <CustomButton
+                title='Maps Page'
+                onPress={() => navigation.navigate("MapsPage")}
+            />
         </View>
     )
 }
